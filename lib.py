@@ -82,10 +82,5 @@ if __name__ == '__main__':
             "author": f"Author {i}",
             "isbn": f"ISBN-{i:05d}" 
         })
-        print(f"Added book: {books[-1]}")
-        
-        
-
-    
-    app.run(debug=True)
+        app.run(debug=True)
 
